@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  angular-app:
+    image: muharsln/coming-soon
+    container_name: coming-soon
+    ports:
+      - "7002:7002"
+    environment:
+      APP_NAME: "Title Field"
+      CARD_TITLE: "Coming Soon"
+      CARD_DESCRIPTION: "Something extraordinary is being worked on."
+      INSTAGRAM_URL: "https://instagram.com"
+      X_URL: "https://x.com"
+      YOUTUBE_URL: "https://youtube.com"
+    restart: unless-stopped
