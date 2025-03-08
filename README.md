@@ -9,6 +9,10 @@ A minimalist "Coming Soon" page built with Angular that's easily customizable an
 - Ready for Docker deployment
 - Compatible with both `docker run` and `docker-compose`
 
+## Screenshot
+
+![Coming Soon Page Screenshot](https://github.com/muharsln/coming-soon/tree/main/public/screen/screenshot.png)
+
 ## Development
 
 Start a local development server:
